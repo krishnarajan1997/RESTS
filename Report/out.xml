@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="47.328097">
-<testcase classname="going to verify the adactin webpage" name="verify the login page with valid data" time="26.018646">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.stepdefinition.Mainclass.verify_the_outcome_result(Mainclass.java:29)&#13;&#10;&#9;at ✽.verify the outcome result(src/test/resources/feature/file.feature:5)&#13;&#10;"><![CDATA[Given enter the valid data to username and password.........................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="52.624796">
+<testcase classname="going to verify the adactin webpage" name="verify the login page with valid data" time="28.146006">
+<system-out><![CDATA[Given enter the valid data to username and password.........................passed
 When click the login button.................................................passed
-Then verify the outcome result..............................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.stepdefinition.Mainclass.verify_the_outcome_result(Mainclass.java:29)
-	at ✽.verify the outcome result(src/test/resources/feature/file.feature:5)
-]]></failure>
+Then verify the outcome result..............................................passed
+]]></system-out>
 </testcase>
-<testcase classname="going to verify the adactin webpage" name="verify the login page invalid data" time="10.543459">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.stepdefinition.Mainclass.check_the_result(Mainclass.java:50)&#13;&#10;&#9;at ✽.check the result(src/test/resources/feature/file.feature:10)&#13;&#10;"><![CDATA[Given Enter  invalid user and password......................................passed
+<testcase classname="going to verify the adactin webpage" name="verify the login page invalid data" time="8.888894">
+<system-out><![CDATA[Given Enter  invalid user and password......................................passed
 When Click login............................................................passed
-Then check the result.......................................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.stepdefinition.Mainclass.check_the_result(Mainclass.java:50)
-	at ✽.check the result(src/test/resources/feature/file.feature:10)
-]]></failure>
+Then check the result.......................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="going to verify the adactin webpage" name="check the login page with invalid password" time="10.765992">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.stepdefinition.Mainclass.check_the_outcome_result(Mainclass.java:69)&#13;&#10;&#9;at ✽.Check the outcome result(src/test/resources/feature/file.feature:15)&#13;&#10;"><![CDATA[Given pass the data to username only........................................passed
+<testcase classname="going to verify the adactin webpage" name="check the login page with invalid password" time="15.589896">
+<system-out><![CDATA[Given pass the data to username only........................................passed
 When click the log button in page...........................................passed
-Then Check the outcome result...............................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.stepdefinition.Mainclass.check_the_outcome_result(Mainclass.java:69)
-	at ✽.Check the outcome result(src/test/resources/feature/file.feature:15)
-]]></failure>
+Then Check the outcome result...............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

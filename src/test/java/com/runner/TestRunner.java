@@ -14,6 +14,6 @@ public class TestRunner {
 	@AfterClass
 	public static void rep() {
 		// TODO Auto-generated method stub
-JVM.generateJVM("C:\\Users\\DELL\\eclipse-workspace\\Hook\\Report\\output.json");
+//JVM.generateJVM("C:\\Users\\DELL\\eclipse-workspace\\Hook\\Report\\output.json");
 }}
 //plugin= {"html:Report","json:Report//output.json","rerun:src//test//resources//Report/failed.txt"}

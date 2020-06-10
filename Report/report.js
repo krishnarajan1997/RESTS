@@ -46,10 +46,8 @@ formatter.match({
   "location": "Mainclass.verify_the_outcome_result()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.stepdefinition.Mainclass.verify_the_outcome_result(Mainclass.java:29)\r\n\tat ✽.verify the outcome result(src/test/resources/feature/file.feature:5)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });
@@ -95,10 +93,8 @@ formatter.match({
   "location": "Mainclass.check_the_result()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.stepdefinition.Mainclass.check_the_result(Mainclass.java:50)\r\n\tat ✽.check the result(src/test/resources/feature/file.feature:10)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded1.png");
 formatter.after({
   "status": "passed"
 });
@@ -144,10 +140,8 @@ formatter.match({
   "location": "Mainclass.check_the_outcome_result()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.stepdefinition.Mainclass.check_the_outcome_result(Mainclass.java:69)\r\n\tat ✽.Check the outcome result(src/test/resources/feature/file.feature:15)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded2.png");
 formatter.after({
   "status": "passed"
 });
